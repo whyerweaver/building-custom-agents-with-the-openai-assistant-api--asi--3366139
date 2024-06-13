@@ -64,6 +64,6 @@ run = wait_on_run(run, thread)
 response = client.beta.threads.messages.list(thread_id=thread.id, order="asc")
 print(f"The response object:\n{response}\n")
 
-# Print the assistant's response
-print(f"Assistant: {response.data[-1].content[0].text.value}")
+# Print the assistant's responsepri
+nt(f"Assistant: {response.data[-1].content[0].text.value}")
     

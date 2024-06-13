@@ -7,12 +7,11 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 # Assistant ID (can be a hard-coded ID)
-ASSISTANT_ID = 'YOUR_ASSISTANT_ID'
+ASSISTANT_ID = 'asst_Qjefm7vxjZcJyEjq1BNyofAt'
 
 # Load environment variables
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path)
-
 # Create an OpenAI client
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
